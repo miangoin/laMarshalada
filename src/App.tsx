@@ -8,7 +8,7 @@ import StatsPage from './Pages/Stats';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/laMarshalada"> 
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />        
