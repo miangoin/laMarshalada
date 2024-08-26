@@ -11,7 +11,7 @@ function Navbar() {
           <h1 className="text-xl font-bold">La Marshalada</h1>
         </div>
         <div className="hidden md:flex space-x-4">
-          <Link to="/" className="hover:text-gray-300">Home</Link>
+          <Link to="/laMarshalada" className="hover:text-gray-300">Home</Link>
           <Link to="/about" className="hover:text-gray-300">Acerca de mi</Link>
           <Link to="/stats" className="hover:text-gray-300">Picks/Stats</Link>
         </div>
