@@ -11,7 +11,7 @@ function App() {
     <Router basename="/laMarshalada">
       <Navbar />
       <Routes>
-        <Route path="/" element={<HomePage />} />        
+        <Route path="/laMarshalada" element={<HomePage />} />        
         <Route path="/about" element={<AboutPage />} />
         <Route path="/stats" element={<StatsPage />} />
       </Routes>
