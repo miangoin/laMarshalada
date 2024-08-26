@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/miangoin/laMarshalada/static/css/main.61454931.css",
+    "main.js": "/miangoin/laMarshalada/static/js/main.d2ee6712.js",
+    "static/js/453.006cb75e.chunk.js": "/miangoin/laMarshalada/static/js/453.006cb75e.chunk.js",
+    "static/media/image.png": "/miangoin/laMarshalada/static/media/image.85fdab674b671f0140c9.png",
+    "index.html": "/miangoin/laMarshalada/index.html",
+    "main.61454931.css.map": "/miangoin/laMarshalada/static/css/main.61454931.css.map",
+    "main.d2ee6712.js.map": "/miangoin/laMarshalada/static/js/main.d2ee6712.js.map",
+    "453.006cb75e.chunk.js.map": "/miangoin/laMarshalada/static/js/453.006cb75e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61454931.css",
+    "static/js/main.d2ee6712.js"
+  ]
+}
