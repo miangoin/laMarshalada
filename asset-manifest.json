@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/laMarshalada/static/css/main.61454931.css",
-    "main.js": "/laMarshalada/static/js/main.83356206.js",
+    "main.css": "/laMarshalada/static/css/main.d6d7788f.css",
+    "main.js": "/laMarshalada/static/js/main.59553243.js",
     "static/js/453.006cb75e.chunk.js": "/laMarshalada/static/js/453.006cb75e.chunk.js",
     "static/media/image.png": "/laMarshalada/static/media/image.85fdab674b671f0140c9.png",
+    "static/media/Kirolbet.png": "/laMarshalada/static/media/Kirolbet.e8e37fb7e3094d46633c.png",
+    "static/media/CasinoBarcelona.png": "/laMarshalada/static/media/CasinoBarcelona.dc3ae7396b5506f97e06.png",
     "index.html": "/laMarshalada/index.html",
-    "main.61454931.css.map": "/laMarshalada/static/css/main.61454931.css.map",
-    "main.83356206.js.map": "/laMarshalada/static/js/main.83356206.js.map",
+    "main.d6d7788f.css.map": "/laMarshalada/static/css/main.d6d7788f.css.map",
+    "main.59553243.js.map": "/laMarshalada/static/js/main.59553243.js.map",
     "453.006cb75e.chunk.js.map": "/laMarshalada/static/js/453.006cb75e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61454931.css",
-    "static/js/main.83356206.js"
+    "static/css/main.d6d7788f.css",
+    "static/js/main.59553243.js"
   ]
 }
