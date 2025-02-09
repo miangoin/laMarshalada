@@ -1,7 +1,11 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
 import profilePic from '../Photos/image.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faTwitch } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faTwitch, faYoutube, faTelegram } from '@fortawesome/free-brands-svg-icons';
+import WidgetBot from '@widgetbot/react-embed'
+
 
 function HomePage() {
   return (
@@ -28,21 +32,21 @@ function HomePage() {
             >
               <FontAwesomeIcon icon={faTwitch} />
             </a>
+            <a
+              href="https://www.youtube.com/channel/UCMhRv4plVTxn3Nbs8aOmhDQ"
+              className="text-white hover:text-gray-300 text-2xl"
+            >
+              <FontAwesomeIcon icon={faYoutube} />
+            </a>
+            <a
+              href="https://t.me/lamarshalada"
+              className="text-white hover:text-gray-300 text-2xl"
+            >
+              <FontAwesomeIcon icon={faTelegram} />
+            </a>
           </div>
         </section>
         
-        {/* Picks Today Section */}
-        <section className="bg-light-gray rounded-xl p-6 shadow-md mb-6">
-          <h2 className="text-2xl font-bold mb-4 text-center">Picks de hoy</h2>
-          <ul className="flex flex-col space-y-3">
-            <li className="bg-very-dark-gray rounded-xl p-3 text-white hover:text-gray-200 text-center">
-              Tarjeta Amarilla a Bellingham @6 Real Madrid - Valladolid
-            </li>
-            <li className="bg-very-dark-gray rounded-xl p-3 text-white hover:text-gray-200 text-center">
-              Girona HA-1 @1.90 Atl Madrid - Girona
-            </li>
-          </ul>
-        </section>
 
         {/* Buttons Section */}
         <section className="flex-1 flex flex-col justify-center items-center mb-6">
@@ -64,19 +68,26 @@ function HomePage() {
 
         {/* Picks comunidad Section */}
         <section className="bg-light-gray rounded-xl p-6 shadow-md">
-          <h2 className="text-2xl font-bold mb-4 text-center">Picks de la comunidad o de largo plazo</h2>
-          <ul className="flex flex-col space-y-3">
-            <li className="bg-very-dark-gray rounded-xl p-3 text-white hover:text-gray-200 text-center">
-              Atlético de Madrid Aliron
-            </li>
-            <li className="bg-very-dark-gray rounded-xl p-3 text-white hover:text-gray-200 text-center">
-              Sorloth Máximo Goleador
-            </li>
-            <li className="bg-very-dark-gray rounded-xl p-3 text-white hover:text-gray-200 text-center">
-              Cole Palmer MVP Premier
-            </li>
-          </ul>
-        </section>
+  <h2 className="text-2xl font-bold mb-4 text-center">Picks</h2>
+  <div className="flex flex-col md:flex-row space-x-0 md:space-x-4"> {/* Contenedor Flexbox */}
+    <div className="w-full md:w-1/2"> {/* Contenedor para el primer chat de Discord */}
+    <h2 className="text-2xl font-bold mb-4 text-center">Marshall</h2>
+      <WidgetBot
+        server="1337584612389425327"
+        channel="1337584613329076367" 
+        style={{ width: '100%', height: '700px' }} // Ancho 100% del contenedor
+      />
+    </div>
+    <div className="w-full md:w-1/2"> {/* Contenedor para el segundo chat de Discord */}
+    <h2 className="text-2xl font-bold mb-4 text-center">Directo</h2>
+      <WidgetBot
+        server="1337584612389425327"
+        channel="1337584613329076368" 
+        style={{ width: '100%', height: '700px' }} // Ancho 100% del contenedor
+      />
+    </div>
+  </div>
+</section>
       </div>
     </div>
   );

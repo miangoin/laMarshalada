@@ -4,8 +4,7 @@ import Navbar from './Components/Navbar';
 import HomePage from './Pages/Home';
 import AboutPage from './Pages/About';
 import StatsPage from './Pages/Stats';
-// import PicksStatsPage from './PicksStatsPage';
-
+import Casas from './Pages/Casas';
 function App() {
   return (
     <Router basename="/laMarshalada">
@@ -14,6 +13,7 @@ function App() {
         <Route path="/" element={<HomePage />} />        
         <Route path="/about" element={<AboutPage />} />
         <Route path="/stats" element={<StatsPage />} />
+        <Route path="/casas" element={<Casas />} />
       </Routes>
     </Router>
   );
