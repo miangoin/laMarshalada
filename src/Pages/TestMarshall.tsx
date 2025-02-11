@@ -39,7 +39,7 @@ const SocialLink: React.FC<{ href: string; icon: any }> = ({ href, icon }) => {
   );
 };
 
-const HomePage: React.FC = () => {
+const Test: React.FC = () => {
   return (
     <div className="bg-black text-white min-h-screen font-sans">
       <div className="container mx-auto py-8 px-4">
@@ -181,4 +181,4 @@ const ChatEmbed: React.FC<ChatEmbedProps> = ({ server, channel, title }) => {
   );
 };
 
-export default HomePage;
+export default Test;
