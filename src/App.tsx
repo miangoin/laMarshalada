@@ -5,6 +5,7 @@ import HomePage from './Pages/Home';
 import AboutPage from './Pages/About';
 import StatsPage from './Pages/Stats';
 import Casas from './Pages/Casas';
+import Test from './Pages/TestMarshall'
 function App() {
   return (
     <Router basename="/laMarshalada">
@@ -14,6 +15,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/stats" element={<StatsPage />} />
         <Route path="/casas" element={<Casas />} />
+        <Route path="/test" element={<Test />} />
       </Routes>
     </Router>
   );
