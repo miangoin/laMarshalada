@@ -5,7 +5,7 @@ import HomePage from './Pages/Home';
 import AboutPage from './Pages/About';
 import StatsPage from './Pages/Stats';
 import Casas from './Pages/Casas';
-import Test from './Pages/TestMarshall'
+import Test from './Pages/Test'
 function App() {
   return (
     <Router basename="/laMarshalada">
