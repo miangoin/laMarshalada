@@ -49,22 +49,24 @@ function HomePage() {
         
 
         {/* Buttons Section */}
-        <section className="flex-1 flex flex-col justify-center items-center mb-6">
-          <div className="flex-1 w-full flex justify-between items-center">
-            <div className="bg-yellow text-very-dark-gray font-bold py-8 flex-1 mr-2 rounded-xl flex flex-col justify-center items-center">
-            <span style={{ fontSize: '1.8rem' }}>Únete a nuestro Discord</span>
-              <a href="https://discord.gg/8FsjyrgGUe" className="bg-black text-white rounded-xl py-1 px-3 font-normal mt-2 text-sm hover:bg-gray-800">
-                Join Now
-              </a>
-            </div>
-            <div className="bg-yellow text-very-dark-gray font-bold py-8 flex-1 ml-2 rounded-xl flex flex-col justify-center items-center">
-            <span style={{ fontSize: '1.8rem' }}>Accede a mi Excel</span>
-            <a href="https://docs.google.com/spreadsheets/u/0/d/1x7MIthsd3Oyrt2v_iuOV7T00TZ6Wol65NAIQ-n_wSW0/edit?pli=1" className="bg-black text-white py-1 px-3 rounded-xl mt-2 text-sm font-normal hover:bg-gray-800">
-                Join Now
-            </a>
-            </div>
-          </div>
-        </section>
+     {/* Buttons Section */}
+<section className="flex-1 flex flex-col justify-center items-center mb-6">
+  <div className="flex flex-col sm:flex-row w-full sm:space-x-4">
+    <div className="bg-yellow text-very-dark-gray font-bold py-8 flex-1 rounded-xl flex flex-col justify-center items-center mb-4 sm:mb-0">
+      <span style={{ fontSize: '1.7rem' }}>Únete a nuestro Discord</span>
+      <a href="https://discord.gg/8FsjyrgGUe" className="bg-black text-white rounded-xl py-1 px-3 font-normal mt-2 text-sm hover:bg-gray-800">
+        Join Now
+      </a>
+    </div>
+    <div className="bg-yellow text-very-dark-gray font-bold py-8 flex-1 rounded-xl flex flex-col justify-center items-center">
+      <span style={{ fontSize: '1.8rem' }}>Accede a mi Excel</span>
+      <a href="https://docs.google.com/spreadsheets/u/0/d/1x7MIthsd3Oyrt2v_iuOV7T00TZ6Wol65NAIQ-n_wSW0/edit?pli=1" className="bg-black text-white py-1 px-3 rounded-xl mt-2 text-sm font-normal hover:bg-gray-800">
+        Join Now
+      </a>
+    </div>
+  </div>
+</section>
+
 
         {/* Picks comunidad Section */}
         <section className="bg-light-gray rounded-xl p-6 shadow-md">

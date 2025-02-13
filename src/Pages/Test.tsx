@@ -119,14 +119,14 @@ const Test: React.FC = () => {
 // Componente para tarjetas de casino
 const CasinoCard: React.FC<CasinoCardProps> = ({ image, title, description, requirements, registerLink }) => {
     return (
-      <div className="bg-gray-700 rounded-xl p-6 shadow-md flex flex-col h-full">
+      <div className="bg-gray-800 rounded-xl p-6 shadow-md flex flex-col h-full">
         <div className="flex items-center justify-center">
           <img src={image} alt="Logo Casino" className="w-26 h-24 rounded mr-4" />
           <h3 className="text-xl font-bold text-gold">{title}</h3>
         </div>
         <div className="flex-grow">
           <p className="text-gray-300 mt-2 text-base text-center">{description}</p>
-          <div className="bg-gray-800 p-4 mt-4 rounded-lg shadow-sm h-48">
+          <div className="bg-gray-700 p-4 mt-4 rounded-lg shadow-sm h-48">
             <h4 className="text-sm font-semibold text-gray-200">Requisitos para participar:</h4>
             <ul className="text-gray-300 text-sm space-y-1 list-disc ml-5">
               {requirements.map((req, index) => (
@@ -152,7 +152,7 @@ const CasinoCard: React.FC<CasinoCardProps> = ({ image, title, description, requ
 const ButtonCard: React.FC<ButtonCardProps> = ({ text, link }) => {
     return (
       <div className="bg-yellow text-very-dark-gray font-bold py-8 flex-1 rounded-xl flex flex-col justify-center items-center">
-        <span style={{ fontSize: '1.8rem' }}>{text}</span>
+        <span style={{ fontSize: '1.7rem' }}>{text}</span>
         <a 
           href={link} 
           className="bg-black text-white rounded-xl py-1 px-3 mt-2 text-sm font-normal hover:bg-gray-800 relative inline-flex items-center"
