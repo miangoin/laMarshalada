@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/laMarshalada/static/css/main.1b054460.css",
-    "main.js": "/laMarshalada/static/js/main.c175d60c.js",
+    "main.js": "/laMarshalada/static/js/main.b21ca3fd.js",
     "static/js/453.006cb75e.chunk.js": "/laMarshalada/static/js/453.006cb75e.chunk.js",
     "static/media/image.png": "/laMarshalada/static/media/image.182c7428c19cf152278e.png",
     "static/media/jugarbien.png": "/laMarshalada/static/media/jugarbien.744ed9158c5d4eaaeb5f.png",
@@ -12,11 +12,11 @@
     "static/media/gran-madrid.png": "/laMarshalada/static/media/gran-madrid.b63cfaec406900adb84d.png",
     "index.html": "/laMarshalada/index.html",
     "main.1b054460.css.map": "/laMarshalada/static/css/main.1b054460.css.map",
-    "main.c175d60c.js.map": "/laMarshalada/static/js/main.c175d60c.js.map",
+    "main.b21ca3fd.js.map": "/laMarshalada/static/js/main.b21ca3fd.js.map",
     "453.006cb75e.chunk.js.map": "/laMarshalada/static/js/453.006cb75e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b054460.css",
-    "static/js/main.c175d60c.js"
+    "static/js/main.b21ca3fd.js"
   ]
 }
