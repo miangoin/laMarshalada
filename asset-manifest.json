@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/laMarshalada/static/css/main.13253716.css",
-    "main.js": "/laMarshalada/static/js/main.3e418d4d.js",
+    "main.css": "/laMarshalada/static/css/main.1b054460.css",
+    "main.js": "/laMarshalada/static/js/main.c175d60c.js",
     "static/js/453.006cb75e.chunk.js": "/laMarshalada/static/js/453.006cb75e.chunk.js",
     "static/media/image.png": "/laMarshalada/static/media/image.182c7428c19cf152278e.png",
+    "static/media/jugarbien.png": "/laMarshalada/static/media/jugarbien.744ed9158c5d4eaaeb5f.png",
     "static/media/Kirolbet.png": "/laMarshalada/static/media/Kirolbet.e8e37fb7e3094d46633c.png",
-    "static/media/CasinoBarcelona.png": "/laMarshalada/static/media/CasinoBarcelona.dc3ae7396b5506f97e06.png",
+    "static/media/betway.png": "/laMarshalada/static/media/betway.0983bf2c0a792a069fc1.png",
+    "static/media/betfair.png": "/laMarshalada/static/media/betfair.382a82ff12dceb29c995.png",
+    "static/media/marathon.png": "/laMarshalada/static/media/marathon.55712476a9a1007c96a7.png",
+    "static/media/gran-madrid.png": "/laMarshalada/static/media/gran-madrid.b63cfaec406900adb84d.png",
     "index.html": "/laMarshalada/index.html",
-    "main.13253716.css.map": "/laMarshalada/static/css/main.13253716.css.map",
-    "main.3e418d4d.js.map": "/laMarshalada/static/js/main.3e418d4d.js.map",
+    "main.1b054460.css.map": "/laMarshalada/static/css/main.1b054460.css.map",
+    "main.c175d60c.js.map": "/laMarshalada/static/js/main.c175d60c.js.map",
     "453.006cb75e.chunk.js.map": "/laMarshalada/static/js/453.006cb75e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13253716.css",
-    "static/js/main.3e418d4d.js"
+    "static/css/main.1b054460.css",
+    "static/js/main.c175d60c.js"
   ]
 }
