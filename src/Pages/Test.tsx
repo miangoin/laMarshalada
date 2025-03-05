@@ -144,7 +144,7 @@
             href={link} 
             className="bg-black text-white rounded-xl py-1 px-3 mt-2 text-sm font-normal hover:bg-gray-800 relative inline-flex items-center"
           >
-            Join Now
+            Unete
           
               <path 
                 fillRule="evenodd" 
